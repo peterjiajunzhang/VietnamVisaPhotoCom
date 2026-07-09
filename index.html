@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam Visa Photo 1-Tap — evisa.gov.vn 4×6 cm photo, one tap, on-device</title>
+    <meta name="description" content="Turn any portrait into a compliant Vietnam e-Visa photo: automatic background removal, 4×6 cm (600×900 px) export, and on-device privacy. For iPhone.">
+    <link rel="canonical" href="https://vietnam.visaphoto1tap.com/">
+    <link rel="icon" type="image/png" href="AppIcon.png">
+    <link rel="apple-touch-icon" href="AppIcon.png">
+    <meta name="theme-color" content="#c8102e">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vietnam.visaphoto1tap.com/">
+    <meta property="og:title" content="Vietnam Visa Photo 1-Tap — evisa.gov.vn 4×6 cm photo, one tap, on-device">
+    <meta property="og:description" content="Turn any portrait into a compliant Vietnam e-Visa photo: automatic background removal, 4×6 cm (600×900 px) export, and on-device privacy. For iPhone.">
+    <meta property="og:image" content="https://vietnam.visaphoto1tap.com/AppIcon.png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vietnam Visa Photo 1-Tap — evisa.gov.vn 4×6 cm photo, one tap, on-device">
+    <meta name="twitter:description" content="Turn any portrait into a compliant Vietnam e-Visa photo: automatic background removal, 4×6 cm (600×900 px) export, and on-device privacy. For iPhone.">
+    <meta name="twitter:image" content="https://vietnam.visaphoto1tap.com/AppIcon.png">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Vietnam Visa Photo 1-Tap",
+  "url": "https://vietnam.visaphoto1tap.com/",
+  "image": "https://vietnam.visaphoto1tap.com/AppIcon.png",
+  "description": "Turn any portrait into a compliant Vietnam e-Visa photo: automatic background removal, 4×6 cm (600×900 px) export, and on-device privacy. For iPhone.",
+  "operatingSystem": "iOS 17.0 or later",
+  "applicationCategory": "PhotographyApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "1.99",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": "https://apps.apple.com/app/id6788961380"
+}
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: '#c8102e',
+                        'brand-dark': '#9c0c23',
+                        navy: '#0a1628',
+                    },
+                    fontFamily: {
+                        sans: ['-apple-system', 'BlinkMacSystemFont', '"SF Pro Display"', '"Segoe UI"', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .gradient-hero {
+            background: radial-gradient(ellipse 120% 80% at 50% 20%, rgba(200, 16, 46, 0.20) 0%, transparent 50%),
+                linear-gradient(145deg, #150508 0%, #0a1628 45%, #0d1a2a 100%);
+        }
+        .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+        .card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); }
+        @keyframes complianceRowIn {
+            from { opacity: 0; transform: translateY(8px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .compliance-row { opacity: 0; animation: complianceRowIn 0.5s ease forwards; }
+        .compliance-row:nth-child(1) { animation-delay: 0.05s; }
+        .compliance-row:nth-child(2) { animation-delay: 0.12s; }
+        .compliance-row:nth-child(3) { animation-delay: 0.19s; }
+        .compliance-row:nth-child(4) { animation-delay: 0.26s; }
+        .compliance-row:nth-child(5) { animation-delay: 0.33s; }
+        .compliance-row:nth-child(6) { animation-delay: 0.40s; }
+        .compliance-row:nth-child(7) { animation-delay: 0.47s; }
+        .ba-img { width: 100%; max-width: 260px; height: auto; display: block; border-radius: 1.25rem; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15); border: 1px solid rgba(15, 23, 42, 0.08); background: #fff; }
+        .ba-original-wrap { border-radius: 22px; overflow: hidden; background: linear-gradient(165deg, #2c2c2e 0%, #1c1c1e 40%, #000 100%); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22), inset 0 0 0 1px rgba(255, 255, 255, 0.06); padding: 4px; max-width: 260px; }
+        .ba-original-wrap img { border-radius: 18px; display: block; width: 100%; height: auto; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 font-sans antialiased">
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <img src="AppIcon.png" alt="Vietnam Visa Photo 1-Tap" class="w-8 h-8 rounded-lg" width="1024" height="1024" decoding="async">
+                <span class="font-semibold text-gray-900 tracking-tight">Vietnam Visa Photo 1-Tap</span>
+            </div>
+            <div class="flex items-center gap-6 text-sm">
+                <a href="#demos" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">Demo</a>
+                <a href="#app" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">Screenshots</a>
+                <a href="#features" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">Features</a>
+                <a href="#compliance-checklist" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">What we check</a>
+                <a href="#languages" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">Languages</a>
+                <a href="#pricing" class="text-gray-500 hover:text-gray-900 transition hidden sm:block">Pricing</a>
+                <div class="relative">
+            <button type="button" id="app-switcher-btn" aria-haspopup="true" aria-expanded="false" aria-label="Other visa photo apps" class="p-2 -m-2 rounded-lg text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition">
+                <i data-lucide="menu" class="w-5 h-5"></i>
+            </button>
+            <div id="app-switcher-menu" class="hidden fixed right-4 top-16 w-72 max-w-[calc(100vw-2rem)] bg-white rounded-2xl shadow-2xl border border-gray-100 py-2 z-50 text-left">
+                <p class="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">Our visa photo apps</p>
+            <a href="https://us.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://us.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">US Visa Photo</span>
+            </a>
+            <a href="https://china.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://china.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">China Visa Photo</span>
+            </a>
+            <a href="https://schengen.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://schengen.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">Schengen Visa Photo</span>
+            </a>
+            <a href="https://india.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://india.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">India Visa Photo</span>
+            </a>
+            <a href="https://japan.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://japan.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">Japan Visa Photo</span>
+            </a>
+            <a href="https://canada.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://canada.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">Canada Visa Photo</span>
+            </a>
+            <a href="https://uk.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 hover:bg-gray-50 transition">
+                <img src="https://uk.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-medium text-gray-800">UK Visa Photo</span>
+            </a>
+            <a href="https://vietnam.visaphoto1tap.com/" class="flex items-center gap-3 px-4 py-2.5 bg-gray-50">
+                <img src="https://vietnam.visaphoto1tap.com/AppIcon.png" alt="" class="w-8 h-8 rounded-lg flex-shrink-0">
+                <span class="text-sm font-semibold text-gray-900">Vietnam Visa Photo</span>
+                <i data-lucide="check" class="w-4 h-4 text-emerald-500 ml-auto flex-shrink-0"></i>
+            </a>
+            </div>
+        </div>
+        <a href="https://apps.apple.com/app/id6788961380" target="_blank" rel="noopener noreferrer" class="bg-brand text-white px-4 py-1.5 rounded-full text-sm font-medium hover:bg-brand-dark transition">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="gradient-hero text-white overflow-hidden">
+        <div class="max-w-6xl mx-auto px-6 py-20 md:py-32">
+            <div class="max-w-3xl mx-auto text-center">
+                <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur rounded-full px-4 py-1.5 text-sm mb-8">
+                    <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+                    <span class="text-gray-200">100% on-device — auto cutout &amp; export on your iPhone</span>
+                </div>
+
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight mb-6">
+                    <span class="text-white">One-Tap</span><br>
+                    <span class="text-brand">Vietnam e-Visa Photos</span><br>
+                    <span class="text-gray-200 text-3xl sm:text-4xl md:text-5xl font-semibold">Ready for evisa.gov.vn.</span>
+                </h1>
+
+                <p class="text-lg md:text-xl text-gray-300 max-w-xl mx-auto mb-10 leading-relaxed">
+                    Built for Vietnam's e-Visa portrait upload — automatic background removal, a <strong class="text-white">4×6 cm (600×900 px)</strong> export, and a checklist before you submit.
+                </p>
+
+                <div class="inline-flex items-start gap-2 bg-amber-400/10 border border-amber-400/25 backdrop-blur rounded-2xl px-4 py-3 text-sm text-left max-w-xl mx-auto mb-8">
+                    <i data-lucide="glasses" class="w-4 h-4 text-amber-300 flex-shrink-0 mt-0.5"></i>
+                    <span class="text-amber-100">Vietnam's e-Visa portal is stricter than most: <strong>no glasses</strong> and <strong>formal attire</strong> are required — the in-app checklist flags both before you export.</span>
+                </div>
+
+                <div id="download" class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="https://apps.apple.com/app/id6788961380" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white text-navy px-8 py-3.5 rounded-xl font-semibold hover:bg-gray-100 transition text-base">
+                        <i data-lucide="download" class="w-5 h-5"></i>
+                        Download on the App Store
+                    </a>
+                </div>
+                <p class="text-gray-500 text-sm mt-4">iOS 17+ &middot; iPhone</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 py-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-3 text-sm text-gray-500">
+            <div class="flex items-center gap-2"><i data-lucide="scissors" class="w-4 h-4 text-brand"></i><span>Automatic background removal</span></div>
+            <div class="flex items-center gap-2"><i data-lucide="ratio" class="w-4 h-4 text-brand"></i><span>4×6 cm (2:3) — a new aspect, built just for Vietnam</span></div>
+            <div class="flex items-center gap-2"><i data-lucide="cpu" class="w-4 h-4 text-brand"></i><span>Apple Vision on-device</span></div>
+            <div class="flex items-center gap-2"><i data-lucide="eye-off" class="w-4 h-4 text-brand"></i><span>No photo uploads to us</span></div>
+        </div>
+    </section>
+
+    <section id="demos" class="py-20 md:py-28 scroll-mt-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-14">
+                <p class="text-gray-500 text-xs font-semibold uppercase tracking-wider mb-2">Real export</p>
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Any background in.<br><span class="text-brand">e-Visa-ready photo</span> out.</h2>
+                <p class="text-gray-500 text-lg max-w-3xl mx-auto">A real example: home portrait in, clean cutout on white, cropped to Vietnam's <strong class="text-gray-700">4×6 cm (600×900 px)</strong> portrait proportions — taller and narrower than any other visa photo we make.</p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-10 max-w-3xl mx-auto">
+                <div class="text-center">
+                    <div class="ba-original-wrap mx-auto"><img src="demos/demo-01-original.jpg" alt="Original home portrait, before" decoding="async"></div>
+                    <p class="mt-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">Before — home portrait</p>
+                </div>
+                <i data-lucide="arrow-right" class="w-6 h-6 text-gray-300 rotate-90 sm:rotate-0 flex-shrink-0"></i>
+                <div class="text-center">
+                    <img src="demos/demo-01-result.jpg" alt="Vietnam e-Visa photo export, 4x6cm on white" class="ba-img mx-auto" decoding="async">
+                    <p class="mt-3 text-xs font-semibold text-gray-400 uppercase tracking-wider">After — 4×6 cm, white background</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="app" class="py-4 md:py-8 pb-20 md:pb-28 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-14">
+                <p class="text-gray-500 text-xs font-semibold uppercase tracking-wider mb-2">In the app</p>
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Pick a photo.<br><span class="text-brand">e-Visa-ready in one tap.</span></h2>
+                <p class="text-gray-500 text-lg max-w-2xl mx-auto">Real iPhone screenshots: home, photo tips, live checklist, unlock, and your on-device Saved Photos library.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto justify-items-center">
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/01-home.png" alt="Vietnam Visa Photo 1-Tap: home screen with Take Photo / Choose from Photos" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="551" height="603" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Home — Take Photo / Choose from Photos</figcaption>
+                </figure>
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/02-phototips.png" alt="Vietnam e-Visa photo tips: no glasses, formal attire, plain white background" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="551" height="1000" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Photo tips — no glasses, formal attire, plain background</figcaption>
+                </figure>
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/03-checklist.png" alt="Full export checklist with Vietnam e-Visa measurements" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="551" height="903" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Full export checklist — aspect, head/eye %, background, file size…</figcaption>
+                </figure>
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/04-paywall.png" alt="Unlock this export sheet with measurement overlay preview and $1.99 price" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="551" height="860" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Unlock — preview with live measurement overlay &amp; $1.99 price</figcaption>
+                </figure>
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/06-saved-photos.png" alt="All Saved Photos gallery grid" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="527" height="401" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Saved Photos — past exports on this iPhone</figcaption>
+                </figure>
+                <figure class="w-full max-w-xs text-left">
+                    <img src="screenshots/07-saved-photo.png" alt="Full-resolution saved Vietnam e-Visa photo detail view" class="rounded-[2rem] shadow-2xl border border-gray-200 w-full h-auto" width="527" height="1018" decoding="async" loading="lazy">
+                    <figcaption class="mt-3 text-xs text-gray-500 px-1">Saved photo detail — full-resolution 600×900 export</figcaption>
+                </figure>
+            </div>
+            <p class="text-center text-sm text-gray-400 mt-12 max-w-2xl mx-auto">Same on-device pipeline as our US, China, Schengen, India, Japan, Canada &amp; UK apps — tuned for Vietnam's e-Visa portrait upload.</p>
+        </div>
+    </section>
+
+    <section id="compliance-checklist" class="py-16 md:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-3">What we check — sourced from evisa.gov.vn itself</h2>
+                <p class="text-gray-500">We pulled these rules directly from the official <strong>evisa.gov.vn</strong> portal's own validator text — stronger sourcing than a third-party guide. <strong>Always confirm current requirements on the official portal before you submit; this app doesn't submit anything for you.</strong></p>
+            </div>
+            <div class="bg-gray-50 rounded-2xl border border-gray-100 p-6 md:p-8">
+                <ul class="space-y-4 text-left text-sm md:text-base text-gray-800">
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>4 × 6 cm portrait (600×900 px export)</strong> &mdash; the official portal size, aspect 2:3 &mdash; taller and narrower than every other visa photo we make.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>Plain white background</strong> &mdash; after automatic cutout, no shadows or patterns.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>No glasses</strong> &mdash; stricter than Schengen, Canada &amp; the UK, which allow non-tinted glasses. Vietnam's portal doesn't.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>Formal attire, no hat</strong> &mdash; straight-on, neutral expression, eyes open and visible.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>JPEG, file size ≤ 2 MB</strong> &mdash; matches the portal's own upload limit for the portrait photo.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="help-circle" class="w-5 h-5 text-amber-500 flex-shrink-0 mt-0.5"></i><span><strong>Head &amp; eye position</strong> &mdash; shown as reference only. Vietnam's portal publishes no crown-to-chin or eye-height rule, so we don't gate "Ready to use" on it.</span></li>
+                    <li class="compliance-row flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-500 flex-shrink-0 mt-0.5"></i><span><strong>No biometric alteration</strong> &mdash; segmentation and cropping only; we never reshape head, face, or neck outlines.</span></li>
+                </ul>
+                <p class="text-xs text-gray-400 mt-6 leading-relaxed">This app doesn't submit anything to evisa.gov.vn or any government site — it only prepares an image on your device. Final acceptance is always at the discretion of the Vietnam Immigration Department.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="bg-gray-50 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Built for <span class="text-brand">Vietnam's e-Visa</span> portrait</h2>
+                <p class="text-gray-500 text-lg max-w-xl mx-auto">One tap from photo library to an upload-ready portrait, sized and checked against the portal's own rules.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-hover bg-white border border-gray-100 rounded-2xl p-8">
+                    <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-5"><i data-lucide="sparkles" class="w-6 h-6 text-brand"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Auto cutout &amp; white backdrop</h3>
+                    <p class="text-gray-500 leading-relaxed">Apple Vision–powered segmentation removes busy backgrounds and drops you onto a clean white plate — no photo studio needed.</p>
+                </div>
+                <div class="card-hover bg-white border border-gray-100 rounded-2xl p-8">
+                    <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-5"><i data-lucide="glasses" class="w-6 h-6 text-brand"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">Catches the strict rules</h3>
+                    <p class="text-gray-500 leading-relaxed">No glasses, formal attire, plain background — the checklist flags Vietnam's stricter-than-usual rules before you export, not after a rejection.</p>
+                </div>
+                <div class="card-hover bg-white border border-gray-100 rounded-2xl p-8">
+                    <div class="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center mb-5"><i data-lucide="lock" class="w-6 h-6 text-brand"></i></div>
+                    <h3 class="text-lg font-semibold mb-2">On-device only</h3>
+                    <p class="text-gray-500 leading-relaxed">Core image work stays on your phone. Purchase flows use Apple's systems; we don't run our own photo cloud for editing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="languages" class="py-16 md:py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center justify-center w-12 h-12 bg-red-50 rounded-xl mb-5"><i data-lucide="languages" class="w-6 h-6 text-brand"></i></div>
+            <h2 class="text-2xl md:text-3xl font-bold tracking-tight mb-3">Same multilingual UI as our app family</h2>
+            <p class="text-gray-500 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">Built-in language switcher: English, 简体中文, 繁體中文, Español, 日本語, Deutsch, Français.</p>
+            <ul class="flex flex-wrap items-center justify-center gap-3 max-w-3xl mx-auto text-sm md:text-base">
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">English</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">简体中文</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">繁體中文</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">Español</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">日本語</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">Deutsch</li>
+                <li class="bg-gray-50 border border-gray-200 rounded-full px-4 py-2 font-medium text-gray-800">Français</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16"><h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Three steps</h2></div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="w-14 h-14 bg-brand text-white rounded-2xl flex items-center justify-center text-xl font-bold mx-auto mb-5">1</div>
+                    <h3 class="font-semibold mb-2">Pick a photo</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Any clear front-facing shot from your library — no glasses, no hat, formal attire works best.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-14 h-14 bg-brand text-white rounded-2xl flex items-center justify-center text-xl font-bold mx-auto mb-5">2</div>
+                    <h3 class="font-semibold mb-2">One-tap process</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Auto cutout to white, crop to 4×6 cm (600×900 px), then review the checklist.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-14 h-14 bg-brand text-white rounded-2xl flex items-center justify-center text-xl font-bold mx-auto mb-5">3</div>
+                    <h3 class="font-semibold mb-2">Unlock &amp; upload</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Single consumable purchase per export — upload straight to evisa.gov.vn alongside your passport scan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="bg-gray-50 py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Pay per export</h2>
+                <p class="text-gray-500 text-lg max-w-xl mx-auto">No subscription — unlock one processed photo at a time, same model as our other apps.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                <div class="bg-brand text-white rounded-2xl p-8 shadow-xl shadow-brand/20">
+                    <div class="flex items-center gap-3 mb-6">
+                        <img src="AppIcon.png" alt="" class="w-10 h-10 rounded-xl" width="1024" height="1024" decoding="async">
+                        <span class="font-semibold">Vietnam Visa Photo 1-Tap</span>
+                    </div>
+                    <div class="mb-6"><span class="text-5xl font-bold">$1.99</span><span class="text-white/70 ml-1">/ export</span></div>
+                    <ul class="space-y-3 text-sm text-white/90">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 mt-0.5 text-white flex-shrink-0"></i>Full-resolution 600×900 px export</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 mt-0.5 text-white flex-shrink-0"></i>Automatic cutout + white plate</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 mt-0.5 text-white flex-shrink-0"></i>Checklist in-app</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 mt-0.5 text-white flex-shrink-0"></i>On-device processing</li>
+                    </ul>
+                </div>
+                <div class="bg-white border border-gray-200 rounded-2xl p-8 flex flex-col justify-center">
+                    <h3 class="font-semibold text-gray-900 mb-2">Why not a photo studio?</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed mb-4">A studio print works too — this app is for when you already have a decent phone photo and want an upload-ready file fast, privately, and repeatably, without a trip out.</p>
+                    <p class="text-xs text-gray-400">Exact storefront price may vary by region; shown in USD on the U.S. App Store.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="use-cases" class="py-20 md:py-28">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-12"><h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">When people use it</h2></div>
+            <div class="flex flex-wrap items-center justify-center gap-3 max-w-3xl mx-auto">
+                <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium">Vietnam e-Visa portrait upload (evisa.gov.vn)</span>
+                <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium">90-day multiple-entry e-Visa, all nationalities</span>
+                <span class="bg-white border border-gray-200 rounded-full px-5 py-2 text-sm font-medium">Replacing a rejected photo</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-50 py-20 md:py-28">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <img src="AppIcon.png" alt="" class="w-20 h-20 rounded-[22px] mx-auto mb-8 shadow-lg" width="1024" height="1024" decoding="async">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">Your Vietnam e-Visa photo<br><span class="text-brand">starts on your phone.</span></h2>
+            <p class="text-gray-500 text-lg mb-10">Now on the App Store — $1.99 per full-resolution export.</p>
+            <a href="https://apps.apple.com/app/id6788961380" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-brand text-white px-8 py-4 rounded-xl font-semibold hover:bg-brand-dark transition text-base">
+                <i data-lucide="download" class="w-5 h-5"></i>
+                Download on the App Store
+            </a>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-100 py-10">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
+            <div class="flex items-center gap-3">
+                <img src="AppIcon.png" alt="" class="w-6 h-6 rounded-md" width="1024" height="1024" decoding="async">
+                <span>&copy; 2026 Vietnam Visa Photo 1-Tap</span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="privacy.html" class="hover:text-gray-600 transition">Privacy Policy</a>
+                <a href="mailto:zhangjj2007@yahoo.com" class="hover:text-gray-600 transition">Contact</a>
+                </div>
+        </div>
+    </footer>
+
+        <script>
+        (function () {
+            var btn = document.getElementById('app-switcher-btn');
+            var menu = document.getElementById('app-switcher-menu');
+            if (!btn || !menu) return;
+            btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                var willOpen = menu.classList.contains('hidden');
+                menu.classList.toggle('hidden', !willOpen);
+                btn.setAttribute('aria-expanded', String(willOpen));
+            });
+            document.addEventListener('click', function (e) {
+                if (!menu.classList.contains('hidden') && !menu.contains(e.target) && e.target !== btn) {
+                    menu.classList.add('hidden');
+                    btn.setAttribute('aria-expanded', 'false');
+                }
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') { menu.classList.add('hidden'); btn.setAttribute('aria-expanded', 'false'); }
+            });
+        })();
+    </script>
+    <script>lucide.createIcons();</script>
+</body>
+</html>
